@@ -12,26 +12,27 @@ header nav {
   box-sizing: border-box;
   display: grid;
   grid-template:
-    'hamburger brand tools' var(--nav-height)
+    'hamburger brand tools' 90px
     'sections sections sections' 1fr / auto 1fr auto;
   align-items: center;
   gap: 0 24px;
   margin: auto;
   max-width: 1248px;
-  height: var(--nav-height);
+  height: 90px;
   padding: 0 24px;
   font-family: var(--body-font-family);
   position: relative;
   min-height: 90px;
+  max-height: 90px;
   align-items: center;
   display: flex;
 }
 
 header nav[aria-expanded='true'] {
   grid-template:
-    'hamburger brand' var(--nav-height)
+    'hamburger brand' 90px
     'sections sections' 1fr
-    'tools tools' var(--nav-height) / auto 1fr;
+    'tools tools' 90px / auto 1fr;
   overflow-y: auto;
 }
 
