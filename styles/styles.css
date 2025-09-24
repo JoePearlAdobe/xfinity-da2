@@ -554,6 +554,7 @@ main {
   overflow-y: auto;
   -webkit-perspective: 1px;
   perspective: 1px;
+  padding-top: 90px;
 }
 main .hero-container {
   -webkit-transform: translateZ(-1px) scale(2);
